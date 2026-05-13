@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <h1>Formulario</h1>
+    <form action="form.php" method="post" autocomplete="off">
+        <div>
+           <label for="nome">Nome:</label>
+           <input type="text" name="nome" id="nome" maxlength="60" required> 
+        </div>
+        <div>
+            <label for="">Idade</label>
+            <input type="number" name="idade" id="idade" min="1" max="200"
+        <div>
+        <div>
+            <label>Genero</label>
+            <input type="radio" name="genero" id="genero_m" value="m" checked>
+            <label for="genero_m">Masculino</label>
+            <input type="radio" name="genero" id="genero_f" value="f">
+            <label for="genero"_f>Feminino</label>
+            <input type="radio" name="genero" id="genero_o" value="o">
+            <label for="genero">Outros</label>
+
+        </div>
+        <div>
+            <label for="cor">Cor:</label>
+            <select> name="cor" id="cor"
+                <option value="1">Preto</option>
+                <option value="2">Amarelo</option>
+                <option value="3">Branco</option>
+                <option value="4">Vermelho</option>
+                <option value="5" selected>Outro</option>
+            </select>
+        </div>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" name="Telefone" id="telefone">
+        </div>
+        <div>
+            <label for="altura">Altura:</label>
+            <input type="number" name="altura" id="altura" min="0.00" max="3.00" step="0.10" value="1.50">
+        </div>
+        <div>
+            <label for="salario">Salario</label>
+            <input type="number" name="salario" id="salario" min="1612.00" max="999999.99" step="1.00" value="1612.00">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <input type="checkbox" name="promocoes" id="promocoes" value="1" checked>
+            <label for="promocoes">Aceito receber promoções por e-mail</label>
+        </div>
+        <div>
+            <label for="perfil">Perfil</label>
+            <textarea name="perfil" id="perfil" rows="5" maxlength="5000"></textarea>
+        </div>
+        <div>
+            <label for="data_nascimento">Data de Nascimento</label>
+            <input type="date" name="data_nascimeto" id="data_nascimento" required>
+        </div>
+        <div>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <div>
+            <button type="submit">Salvar dados</button>
+        </div>
+
+    </form>    
+</body>
+</html>

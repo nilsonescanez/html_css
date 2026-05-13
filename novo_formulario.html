@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>
+        <img src="https://cdn.sonicadigital.com.br/entra21/storage/settings/1/original-691cbe5cd50d1.png"height="60">
+    </h1>
+    <ul>
+        <li>
+            <a href="html.html">HTML</a>
+        </li>
+        <li>
+        
+            <a href="css.html">CSS</a>
+
+        </li>
+        <li>
+            <a href="js.html">JS</a>
+            
+        </li>
+        <li>
+            <a href="frontend_backend.html">frontend x Backend</a>
+
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    
+    </ul>
+    <h2>Contato</h2>
+    <form action="form.php" method="post" autocomplete="off">
+        <div>
+           <label for="nome">Nome:</label>
+           <input type="text" name="nome" id="nome" maxlength="60" required> 
+        </div>
+        <div>
+             <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="text" name="Telefone" id="telefone">
+        </div>
+        <div>
+            <label for="cidade">Cidade</label>
+            <select id="cidade" name="cidade"
+            <option value="selecione_uma_cidade">selecione_uma_cidade</option>
+            <option value="brusque">Brusque</option>
+            <option value="gaspar">Gaspar</option>
+            <option value="indaial">Idail</option>
+            <option value="itajai">Itajai</option>
+            <option value="balneari_camboriu">Balneario_Camboriu</option>
+            <option value="rio_do_sul">Rio_do_Sul</option>
+            <option value="timbo">Timbo</option>
+            <option value="blumenal">Blumenal</option>
+            </select>
+        </div>
+        <div>
+           <label for="tipo">Tipo</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <input type="checkbox" name="promocoes" id="promocoes" value="1" checked>
+            <label for="promocoes">Aceito receber promoções por e-mail</label>
+        </div>
+        <div>
+            <label for="perfil">Perfil</label>
+            <textarea name="perfil" id="perfil" rows="5" maxlength="5000"></textarea>
+        </div>
+        <div>
+            <label for="data_nascimento">Data de Nascimento</label>
+            <input type="date" name="data_nascimeto" id="data_nascimento" required>
+        </div>
+        <div>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <div>
+            <button type="submit">Salvar dados</button>
+        </div>
+
+    </form>    
+</body>
+</html>
